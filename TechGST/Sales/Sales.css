@@ -1,0 +1,14 @@
+body
+{
+	background-color:blue;
+}
+table
+{
+	height:300px;
+	width:400px;
+	padding-left:50px;
+	background-color:lightgrey;
+	position:fixed;
+	top:30%;
+	left:30%;
+}

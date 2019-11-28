@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>TechGST</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div id="wrapper"> 
+		<div id="header"> 
+			<div class="top_banner">
+				<right>Welcome Mani</right>
+				<h1>Tech<span style="color:blue">GST</span></h1>
+				<p>One <span style="color:blue">Tax</span> One <span style="color:blue">Nation</span></p>
+			</div>
+		</div>
+	<div id="page_content">
+    <div class="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="http://localhost/TechGST/Sales/SalesVoucher.php">Sales</a></li>
+			<li><a href="http://localhost/TechGST/Inventory/Inventory.html">Inventory</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+    </div>
+    <div class="left_side_bar">
+      <div class="col_1">
+			<h1>Main Menu</h1>
+        <div class="box">
+          <ul>
+            <li><a href="http://localhost/TechGST/Customer/Customer.html">New Customer</a></li>
+            <li><a href="http://localhost/TechGST/Customer/CustomerDisplay.php">Exisitng Customers</a></li>
+            <li><a href="http://localhost/TechGST/Customer/edit.php">Edit Customers</a></li>
+            <li><a href="http://localhost/TechGST/Customer/delete.php">Delete Customers</a></li>
+            <li><a href="http://localhost/TechGST/Inventory/Inventory.html">New Item</a></li>
+            <li><a href="http://localhost/TechGST/Inventory/InventoryDisplay.php">Exisitng Item</a></li>
+            <li><a href="http://localhost/TechGST/Inventory/edit2.php">Update Item</a></li>
+            <li><a href="http://localhost/TechGST/Inventory/delete.php">Delete Item</a></li>
+            <li><a href="http://localhost/TechGST/Sales/SalesVoucher.php">Sales</a></li>
+            <li><a href="http://localhost/TechGST/Sales/SalesDisplay.php">Display Sales voucher</a></li>
+            <li><a href="http://localhost/TechGST/Sales/SalesDisplay1.php">Update Sales voucher</a></li>
+            <li><a href="http://localhost/TechGST/Sales/SalesDisplay2.php">Delete Sales Voucher</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	<form name="Customer" action="Customer.php" method="post">
+		<table>
+			<tr align="center">
+				<td colspan="2"><h3>Customer Informations</h3></td>
+			</tr>
+			<tr align="left">
+				<td>Name</td>
+				<td><input type="text" name="custname" placeholder="Customer Name" required></td>
+			</tr>
+			<tr align="left">
+				<td>Address</td>
+				<td><input type="text" name="custadd" required></td>
+			</tr>
+			<tr align="left">
+				<td>State</td>
+				<td>
+					<select name="custstate">
+						<option>Maharashtra</option>
+						<option>Tamil Nadu</option>
+						<option>Kerala</option>
+						<option>Gujarat</option>
+						<option>GOA</option>
+					</select>
+				</td>
+			</tr>
+			<tr align="left">
+				<td>GSTIN No</td>
+				<td><input type="text" name="custgstin" size="15px" placeholder="15 Digit" required></td>
+			</tr>
+			<tr align="center">
+				<td colspan="2"><input type="submit" name="submit" value="Add Customer"></td>
+			</tr>
+		</table>
+	</form>
+    <div id="footer">Developed by Mani(FYMCA)<br></div></div>
+	</div>
+	</body>
+</html>
